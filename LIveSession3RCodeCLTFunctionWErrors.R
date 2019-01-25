@@ -1,4 +1,6 @@
 
+# CLT Function
+
 SampDistSampMean = function(n = 100, simulations = 1000, Dist = "Norm", mean = 0, sd = 1)
 {
   xbar_holder = numeric(simulations)
@@ -12,11 +14,13 @@ SampDistSampMean = function(n = 100, simulations = 1000, Dist = "Norm", mean = 0
     
     sampMean = mean(TheSample)  
     
-    xbar_holder = sampMean
+    xbar_holder[i] = sampMean
     
   }
   return(xbar_holder)   # we want to return the "simulation" number of xbars. 
 }
+
+#Visualize the CLT
 
 hist(SampDistSampMean(Dist = "Exp",n = 100))
 

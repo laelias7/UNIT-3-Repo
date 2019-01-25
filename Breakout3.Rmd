@@ -1,7 +1,7 @@
 ---
 title: "Breakout3"
 author: "Bivin"
-date: "1/24/2019"
+date: "1/25/2019"
 output: html_document
 ---
 
@@ -20,10 +20,10 @@ hist(HorseHigh$mpg)
 hist(HorseLow$mpg)
 ```
 
-#Now assume that you are told that the data come from normal distributions
+#Now assume that you are told that the data come from normal distributions.
 ```{r}
 t.test(HorseHigh$mpg,HorseLow$mpg)
 ```
 
 # Write the step 6 conclusion:
-There is overwhelming evdence to suggest...
+There is overwhelming evdence to suggest that the mean mpg of the low horse power group is greater than that of the high horsepower group (pvalue < .0001).  A 95% confidence interval for the difference is (5mpg, 11mpg).  
