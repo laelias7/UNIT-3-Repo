@@ -20,7 +20,7 @@ hist(HorseHigh$mpg)
 hist(HorseLow$mpg)
 ```
 
-#Now assume that you are told that the data come from normal distributions
+#Now assume that you are told that the data come from normal distributions.
 ```{r}
 t.test(HorseHigh$mpg,HorseLow$mpg)
 ```
