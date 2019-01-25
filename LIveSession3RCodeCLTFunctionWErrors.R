@@ -1,4 +1,5 @@
 
+# CLT Function 
 SampDistSampMean = function(n = 100, simulations = 1000, Dist = "Norm", mean = 0, sd = 1)
 {
   xbar_holder = numeric(simulations)
