@@ -26,4 +26,4 @@ t.test(HorseHigh$mpg,HorseLow$mpg)
 ```
 
 # Write the step 6 conclusion:
-There is overwhelming evdence to suggest that the mean mpg of the low horse power group is greater than that of the high horsepower group (pvalue < .0001).  A 95% confidence interval for the difference is (5mpg, 11mpg).  
+There is overwhelming evdence to suggest that the mean mpg of the low horse power group is greater than that of the high horsepower group (pvalue < .0001).  A 95% confidence interval for the difference is (5mpg, 11mpg).  Therefore, we reject the null hypothesis.
